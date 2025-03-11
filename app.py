@@ -9,7 +9,7 @@ from langchain.memory.chat_message_histories import SQLChatMessageHistory
 from langchain_core.output_parsers import StrOutputParser
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyAmj1vdjdeO1qWijf5ch6ZjrKuXufz-j2A"
+GEMINI_API_KEY = "your_api_key_here"
 model = ChatGoogleGenerativeAI(model="gemini-2.0-pro-exp", google_api_key=GEMINI_API_KEY)
 output_parser = StrOutputParser()
 
